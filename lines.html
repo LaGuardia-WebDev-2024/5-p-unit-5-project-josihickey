@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <!--Astloch-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!--Meow Script-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet">
+    
+    <!---Jaquard 12-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Lavishly+Yours&family=Rubik+Wet+Paint&display=swap"
+      rel="stylesheet"/>
+    
+    <!--Lavishly Yours-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+   
+    <!--Barrio-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+    
+    <!--Rye-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+
+    <!-- The website stylesheet -->
+   <!-- <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <!--<script src="/script.js" defer></script> -->
+    <style>
+    
+      body{background-color:pink; font-family:monospace;}
+      table, th, td{border: 1px solid;}
+      th, td{background-color:rgb(254, 238, 240);}
+      #title{text-align:center;background-color:rgb(254, 238, 240);}
+      .note{font-size:10px}
+      #Lavishly-Yours{font-family:"Lavishly Yours", cursive; font-size:25px;}
+      #Barrio{font-family:"Barrio", monospace; font-size:25px;}
+      #Rye{font-family:"Rye", monospace; font-size:25px;}
+      
+    /* Line styling */
+      
+      .mine{
+        background-color:purple; 
+        border-height:0px;
+        height: 4px;
+      }
+    
+      
+      #weirdline{
+        border-width:4pc;
+        background-color:black 
+          color:black;
+        height: 4px;
+      }
+      
+      #stackoverflowline{
+        display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+border-color:red;
+      }
+    
+    </style>
+  </head>
+  <body>
+  
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropdownbutton">Style</button>
+      <div class="dropdown-content">
+        <a href="fonts.html">Fonts</a>
+        <a href="#tables">Tables</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      
+    <button class="dropdownbutton">Elements</button>
+      <div class="dropdown-content">
+        <a href="tables.html">Tables</a>
+        <a href="lines.html">Lines</a>
+        <a href="flip.html">Flip Cards</a> 
+      </div>
+    </div>
+    <a href="index.html">Home</a>
+    <a href="trialpage.html">Trial</a>
+    </div>
+    
+    
+  <h1 id="title">HTML and CSS Reference Sheet</h1>
+    
+  <h2 id="lines">Lines</h2>
+    
+  <h2 id="toc">Table of Contents</h2>
+    <ul>
+      <li><a href="#tables">Basic Code</a></li>
+      <li><a href="#lines">Style</a></li>
+    </ul>
+
+<h2>Basic Code</h2>    
+    <p>
+      To create a line, use the < hr > tag. There is no end tag for lines. 
+    This will create a horizontal line. This line will be largely transparent, with the exception of a border. Here is a basic line:
+    <hr id="basic">
+    </p>
+  <br>
+  <br>
+  <br>
+  
+  <h2>Style</h2>
+  <p>
+    There are many ways to style a line, but they never seem to 
+    consistently work. I included a few tags that have at some point 
+    worked for me. Good Luck!
+  </p>
+  <img src="https://cdn.glitch.global/ca3bbd6e-b2e2-411f-bf60-4d16537c83a3/LineStyleMine.png?v=1732422221322">
+  <p>
+    This image created the purple line, and the odd line that I don't 
+    totally know what to do with next to it. I've found the "background-color"
+    function to be the most helpful with changing the line's thickness. 
+    The height alters the height (obviously) or thickness of the line. Border width 
+    alters the border, or non-transparent aspect of the original line. For some reason, 
+    using "pc" made it very thick. I haven't figured out why yet. Either way, the second line (#weirdline)
+    shows the use of "border-width". Using "color" however, as I did in the second code, does absolutely nothing. 
+  </p>
+<!-- Weird Lines Code     -->
+   <hr class="mine">
+  <hr id="weirdline">
+    
+  <br>
+  <br>
+  <br>
+  <a href="https://stackoverflow.com/questions/27015460/how-display-a-colored-line-in-html">
+    <img src="https://cdn.glitch.global/ca3bbd6e-b2e2-411f-bf60-4d16537c83a3/StackOverflowLineStyle.png?v=1732423086057" width="550" alt="clickable image on line styling">
+  </a>
+  <p>
+    This is an example of line styling from Stackoverflow 
+    (the image is a link--click it for more details). This uses formatting tags 
+    like margin, as well as border functions. Their line would look like this:
+  </p>
+    
+  <hr id="stackoverflowline">
+    
+    <a href="#toc">Back to Table of Contents</a>
+  </body>
+</html>

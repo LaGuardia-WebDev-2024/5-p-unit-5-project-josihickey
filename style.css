@@ -1,0 +1,81 @@
+/******************************************************************************
+START Glitch hello-app default styles
+
+The styles in this section do some minimal CSS resets, set default fonts and 
+colors, and handle the layout for our footer and "Remix on Glitch" button. If
+you're new to CSS they may seem a little complicated, but you can scroll down
+to this section's matching END comment to see page-specific styles.
+******************************************************************************/
+
+
+/* 
+  The style rules specify elements by type and by attributes such as class and ID
+  Each section indicates an element or elements, then lists the style properties to apply
+  See if you can cross-reference the rules in this file with the elements in index.html
+*/
+
+/* Our default values set as CSS variables */
+
+/*     <!--  Dropdown Bar  --> */
+      
+      .dropdown{
+        overflow:hidden;
+        float:left;
+      }
+      
+      .navbar a{ 
+        float:left;
+        font-size:16px;
+        color:pink;
+        text-align:center;
+        padding: 10px 16px;
+        margin-top:4px;
+        text-decoration:none;
+      }
+      
+      .navbar{
+        overflow:hidden;
+        background-color:#333;
+        font-family:Monospace;
+      }
+      
+      .dropdown .dropdownbutton{
+        font-size:16px;
+        border:none;
+        outline:none;
+        padding: 14px 16px;
+        color:pink;
+        background-color:inherit;
+        font-family:inherit;
+        margin:0;
+      }
+      
+      .navbar a:hover, .dropdown:hover, .dropdownbutton{
+        background-color: #b30086;
+      }
+      
+      .dropdown-content{
+        display:none;
+        position:absolute;
+        background-color: #b30086;
+        min-width:100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index:1;
+      }
+      
+      .dropdown-content a{
+        float:none;
+        color:pink;
+        padding: 12px 16px;
+        text-decoration:none;
+        display:block;
+        text-align:left;
+      }
+      
+      .dropdown-content a:hover{
+        background-color:black;
+      }
+      
+      .dropdown:hover .dropdown-content{
+        display:block;
+      }
